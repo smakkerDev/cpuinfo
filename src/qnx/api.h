@@ -1,7 +1,7 @@
 #ifndef __QNX_API__
 #define __QNX_API__
 
-#define MAX_PROCESSOR	8
+#define MAX_PROCESSOR	16
 #define MAX_CACHE	5 // -> L1i, L1d, L2, L3, L4
 
 extern struct cpuinfo_processor * qnx_processors;
